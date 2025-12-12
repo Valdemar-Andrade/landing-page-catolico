@@ -16,7 +16,7 @@ const faqs = [
     answer: 'Aceitamos diversas formas de pagamento. Entre em contato via WhatsApp e nossa equipe te apresentará todas as opções disponíveis para você.',
   },
   {
-    question: 'Vocês enviam para todo Angola?',
+    question: 'Vocês enviam para toda Angola?',
     answer: 'Sim! Por se tratar de materiais digitais em PDF, você receberá tudo por e-mail imediatamente após a confirmação do pagamento, independente de onde você estiver.',
   },
   {
