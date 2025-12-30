@@ -24,7 +24,7 @@ export default function Home() {
       {/* Quote 1 - Our Lady of Guadalupe */}
       <QuoteSection
         quote="Que cada página seja um espaço de encontro com Deus."
-        backgroundImage="https://images.unsplash.com/photo-1490730141103-6cac27aaab94?w=1200&h=800&fit=crop"
+        backgroundImage="images/background-quote-1.jpeg"
       />
 
       {/* What's new section */}
@@ -37,7 +37,7 @@ export default function Home() {
       <QuoteSection
         quote="Busque a Deus na simplicidade, encontre-O na paz."
         author="São Francisco de Sales"
-        backgroundImage="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&h=800&fit=crop"
+        backgroundImage="images/background-quote-2.jpeg"
       />
 
       {/* Combo section */}
