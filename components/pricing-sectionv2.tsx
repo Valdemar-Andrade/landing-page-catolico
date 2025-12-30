@@ -106,13 +106,13 @@ export default function PricingSectionV2() {
                     </span>
                     <div className="flex items-center gap-2 bg-red-100 text-red-700 px-3 py-1 rounded-full">
                       <TrendingDown className="w-4 h-4" />
-                      <span className="text-sm font-bold">-1.000 Kz</span>
+                      <span className="text-sm font-bold">-3.500 Kz</span>
                     </div>
                   </div>
                   <div className="text-5xl font-bold text-gradient-gold mb-2">
-                    6.000 Kz
+                    3.500 Kz
                   </div>
-                  <p className="text-gray-600">Economia de 1.000 Kz</p>
+                  <p className="text-gray-600">Economia de 3.500 Kz</p>
                 </div>
 
                 <div className="space-y-3 mb-8">

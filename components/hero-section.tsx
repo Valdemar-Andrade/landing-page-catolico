@@ -45,15 +45,7 @@ export default function HeroSection() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.4 }}
-            >
-              <Link
-                href="https://wa.me/244XXXXXXXXX?text=Quero%20o%20Pack%20Cat%C3%B3lico"
-                target="_blank"
-                className="inline-block bg-[#F4C430] hover:bg-[#E5B621] text-gray-900 font-bold text-lg px-10 py-4 rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl"
-              >
-                ADQUIRIR MEU PACK CATÓLICO
-              </Link>
-            </motion.div>
+            ></motion.div>
           </div>
         </div>
       </div>
