@@ -74,7 +74,6 @@ export default function GuideSection() {
                 src={item.image}
                 alt={item.alt}
                 fill
-                priority={index === 0}
                 className="object-contain"
               />
             </div>

@@ -7,22 +7,22 @@ import Image from "next/image";
 const images = [
   {
     src: "images/capa.png",
-    alt: "Página 1",
+    alt: "Página 1 - Capa do Devocional Católico",
     caption: "31 Dias com Deus",
   },
   {
     src: "images/planner-diario.png",
-    alt: "Página 2",
+    alt: "Página 2 - Planner Diário",
     caption: "Organizando o dia à luz de Deus.",
   },
   {
     src: "images/devocional-diario.jpg",
-    alt: "Página 3",
+    alt: "Página 3 - Devocional Diário",
     caption: "Um encontro diário com a Palavra",
   },
   {
     src: "images/mural-de-oracao.png",
-    alt: "Página 4",
+    alt: "Página 4 - Mural de Oração",
     caption: "Um espaço para entregar intenções ao Senhor",
   },
 ];

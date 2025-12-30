@@ -45,7 +45,7 @@ export default function ComboSection() {
                   <div className="overflow-hidden rounded-2xl shadow-xl border border-gray-100 aspect-[4/3]">
                     <Image
                       src="/images/print-devocional.png"
-                      alt="Imprimindo o Devocional"
+                      alt="Imagem de Devocional para impressão"
                       fill
                       className="object-cover"
                     />

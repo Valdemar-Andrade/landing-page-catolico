@@ -58,7 +58,6 @@ export default function PricingSection() {
             <h3 className="text-2xl font-bold text-white mb-4 text-center font-serif">
               Preços Individuais
             </h3>
-
             <div className="space-y-4 mb-6">
               <div className="flex justify-between items-center pb-4 border-b border-gray-200">
                 <span className="text-white font-medium">E-book Católico</span>
@@ -69,19 +68,14 @@ export default function PricingSection() {
                 <span className="text-white font-bold">2.000 Kz</span>
               </div>
               <div className="flex justify-between items-center pb-4 border-b border-gray-200">
-                <span className="text-white font-medium">
-                  Planner Diário
-                </span>
+                <span className="text-white font-medium">Planner Diário</span>
                 <span className="text-white font-bold">1.500 Kz</span>
               </div>
               <div className="flex justify-between items-center pb-4 border-b border-gray-200">
-                <span className="text-white font-medium">
-                  Mural de Oração
-                </span>
+                <span className="text-white font-medium">Mural de Oração</span>
                 <span className="text-white-900 font-bold">1.500 Kz</span>
               </div>
             </div>
-            
             <div className="text-center mb-6">
               <p className="text-5xl font-bold text-white mb-4">7.000 Kz</p>
             </div>
