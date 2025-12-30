@@ -1,16 +1,30 @@
-'use client';
+"use client";
 
-import { motion } from 'framer-motion';
-import { useInView } from 'react-intersection-observer';
-import Image from 'next/image';
+import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+import Image from "next/image";
 
 const images = [
-  { src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/LibreOffice_7.2.4.1_Impress_screenshot.png/1200px-LibreOffice_7.2.4.1_Impress_screenshot.png', alt: 'Página 1' },
-  { src: 'https://i.ytimg.com/vi/1rcIFBhJX_k/maxresdefault.jpg', alt: 'Página 2' },
-  { src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Electronic_medical_record.jpg/330px-Electronic_medical_record.jpg', alt: 'Página 3' },
-  { src: 'https://i.ytimg.com/vi/fBV5OeNGiCU/maxresdefault.jpg', alt: 'Página 4' },
-  { src: 'https://posstack.com/images/blog/2022/then_I_met_you_PDP.jpg', alt: 'Página 5' },
-  { src: 'https://i.ytimg.com/vi/aK4e7oVfJAk/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBTiuDd5LIDtBdTjSOHl1Z_aRuKFQ', alt: 'Página 6' },
+  {
+    src: "images/capa.png",
+    alt: "Página 1",
+    caption: "31 Dias com Deus",
+  },
+  {
+    src: "images/planner-diario.png",
+    alt: "Página 2",
+    caption: "Organizando o dia à luz de Deus.",
+  },
+  {
+    src: "images/devocional-diario.jpg",
+    alt: "Página 3",
+    caption: "Um encontro diário com a Palavra",
+  },
+  {
+    src: "images/mural-de-oracao.png",
+    alt: "Página 4",
+    caption: "Um espaço para entregar intenções ao Senhor",
+  },
 ];
 
 export default function ProductImagesGrid() {
@@ -19,33 +33,50 @@ export default function ProductImagesGrid() {
     threshold: 0.1,
   });
 
+  const rotations = [-2.5, 1.8, -1.2, 2.2];
+
   return (
-    <section ref={ref} className="py-20 bg-white">
+    <section ref={ref} className="py-24 bg-[#f6f4ec]">
       <div className="max-w-7xl mx-auto px-6">
         <motion.div
-          initial={{ opacity: 0, y: 30 }}
+          initial={{ opacity: 0, y: 40 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.8 }}
-          className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6"
+          className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-14"
         >
           {images.map((image, index) => (
             <motion.div
               key={index}
-              initial={{ opacity: 0, y: 30 }}
-              animate={inView ? { opacity: 1, y: 0 } : {}}
-              transition={{ delay: index * 0.1, duration: 0.6 }}
-              className="relative bg-white p-3 shadow-lg transform hover:scale-105 transition-transform duration-300"
-              style={{
-                transform: `rotate(${index % 2 === 0 ? -2 : 2}deg)`,
+              initial={{
+                opacity: 0,
+                y: 30,
+                rotate: rotations[index % rotations.length],
               }}
+              animate={
+                inView
+                  ? {
+                      opacity: 1,
+                      y: 0,
+                      rotate: rotations[index % rotations.length],
+                    }
+                  : {}
+              }
+              transition={{ delay: index * 0.12, duration: 0.6 }}
+              className="flex flex-col items-center"
             >
-              <div className="relative aspect-[3/4]">
-                <Image
-                  src={image.src}
-                  alt={image.alt}
-                  fill
-                  className="object-cover"
-                />
+              <div className="bg-[#fbfaf5] p-3 border border-[#63562b] shadow-[0_8px_18px_rgba(0,0,0,0.18)]">
+                <div className="relative aspect-[3/4] w-[220px] md:w-[240px]">
+                  <Image
+                    src={image.src}
+                    alt={image.alt}
+                    fill
+                    className="object-contain"
+                  />
+                </div>
+
+                <p className="mt-4 text-sm text-[#63562b] font-handwritten text-center">
+                  {image.caption}
+                </p>
               </div>
             </motion.div>
           ))}

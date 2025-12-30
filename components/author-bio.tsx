@@ -1,15 +1,15 @@
-'use client'
+"use client";
 
-import { motion } from 'framer-motion'
-import { useInView } from 'react-intersection-observer'
-import Image from 'next/image'
-import Link from 'next/link'
+import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+import Image from "next/image";
+import Link from "next/link";
 
 export default function AuthorBio() {
   const [ref, inView] = useInView({
     triggerOnce: true,
-    threshold: 0.1
-  })
+    threshold: 0.1,
+  });
 
   return (
     <section id="autora" className="py-20 bg-[#F5F5DC]">
@@ -35,28 +35,56 @@ export default function AuthorBio() {
             className="space-y-6"
           >
             <p className="text-lg text-[#6B5B4F] leading-relaxed font-serif">
-              <strong>Juelma Nele Vunge</strong> é mãe, esposa, advogada e professora.
+              <strong>Juelma Nele Vunge</strong> é mãe, esposa, advogada e
+              professora.
             </p>
             <p className="text-lg text-[#6B5B4F] leading-relaxed font-serif">
-              A sua história com Deus sempre passou pela Igreja Católica: cresceu entre terços, coros, catequeses e a vida comunitária.
+              A sua história com Deus sempre passou pela Igreja Católica:
+              cresceu entre terços, coros, catequeses e a vida comunitária.
             </p>
             <p className="text-lg text-[#6B5B4F] leading-relaxed font-serif">
-              Como muitos católicos que se afastaram da Igreja, buscando soluções em outros Credos, ela também passou por isso. Viveu momentos de dúvidas sobre a veracidade da Igreja e se afastou.
+              Como acontece com muitos católicos, também viveu um tempo de
+              afastamento da Igreja, buscando respostas e soluções em outros
+              caminhos. Passou por dúvidas profundas sobre a fé e sobre a
+              própria Igreja.
             </p>
             <p className="text-lg text-[#6B5B4F] leading-relaxed font-serif">
-              Mas foi justamente aí que o Senhor a encontrou de novo e reacendeu nela o desejo de compreender melhor a fé e de viver com verdade aquilo que professamos.
+              Foi nesse tempo de inquietação que o Senhor a encontrou novamente
+              e reacendeu nela o desejo de compreender melhor a fé católica e de
+              viver com verdade aquilo que professamos.
             </p>
             <p className="text-lg text-[#6B5B4F] leading-relaxed font-serif">
-              No caminho de estudo, oração e discernimento, foi descobrindo que a Igreja, com toda a sua riqueza, doutrina e tradição, é totalmente Cristocêntrica — tudo que Nela se faz tem em vista Jesus Cristo, o nosso Salvador.
+              No caminho de estudo, oração e discernimento, foi descobrindo que
+              a Igreja, com toda a sua riqueza, doutrina e tradição, é
+              totalmente cristocêntrica: tudo o que nela se vive e se celebra
+              tem em vista Jesus Cristo, nosso Salvador.
             </p>
             <p className="text-lg text-[#6B5B4F] leading-relaxed font-serif">
-              Essa descoberta mudou a sua forma de rezar, de participar da Missa e de viver a sua vocação.
+              Essa descoberta transformou a sua forma de rezar, de participar da
+              Missa e de viver a própria vocação.
             </p>
-            <p className="text-lg text-[#6B5B4F] leading-relaxed font-serif font-semibold">
-              Hoje, coloca os seus dons profissionais e pessoais — do Direito, da educação e do marketing digital — ao serviço da evangelização. Quer ajudar outros católicos a conhecer a sua fé, aprofundá-la e vivê-la com mais consciência, amor e entrega.
+            <p className="text-lg text-[#6B5B4F] leading-relaxed font-serif">
+              Enquanto pedia a Deus ajuda e direção para um projeto pessoal,
+              sentiu-se interiormente conduzida a algo maior:{" "}
+              <strong>dar origem ao projeto Católicos de Oração</strong>.
+            </p>
+            <p className="text-lg text-[#6B5B4F] leading-relaxed font-serif">
+              Pouco a pouco, na oração, o Senhor foi iluminando o caminho —
+              desde a identidade do projeto, o seu carisma, até a forma concreta
+              de ajudar outras pessoas a rezar e a se aproximar d’Ele.
+            </p>
+            <p className="text-lg text-[#6B5B4F] leading-relaxed font-serif">
+              Hoje, Juelma coloca os seus dons profissionais e pessoais — do
+              Direito, da educação e do marketing digital — ao serviço da
+              evangelização, com o desejo de ajudar outros católicos a conhecer
+              a sua fé, aprofundá-la e vivê-la com mais consciência, amor e
+              entrega.
             </p>
             <p className="text-lg text-[#8B7355] leading-relaxed font-serif italic">
               Esta é a missão que Deus colocou no seu coração.
+            </p>
+            <p className="text-lg text-[#8B7355] leading-relaxed font-serif font-bold">
+              — Juelma Nele Vunge
             </p>
           </motion.div>
 
@@ -86,17 +114,17 @@ export default function AuthorBio() {
           className="mt-16 text-center space-y-6"
         >
           <p className="text-lg md:text-xl text-[#6B5B4F] max-w-3xl mx-auto font-serif">
-            Clique no botão abaixo e tenha sempre com você o material que vai te ajudar a manter viva a chama da oração:
+            Para continuar, toque no botão abaixo ⬇
           </p>
           <Link
             href="https://wa.me/244XXXXXXXXX?text=Quero%20o%20Pack%20Cat%C3%B3lico"
             target="_blank"
             className="inline-block bg-white hover:bg-gray-50 text-gray-800 font-bold text-lg px-10 py-4 rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl border-2 border-gray-300"
           >
-            👆 QUERO MEU PACK CATÓLICO
+            QUERO INICIAR ESTE CAMINHO DE ORAÇÃO
           </Link>
         </motion.div>
       </div>
     </section>
-  )
+  );
 }

@@ -1,109 +1,116 @@
-'use client';
+"use client";
 
-import { motion } from 'framer-motion';
-import { useInView } from 'react-intersection-observer';
-import Image from 'next/image';
-import { BookOpen, Heart, Calendar, Sparkles } from 'lucide-react';
-import Link from 'next/link';
+import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+import Image from "next/image";
+import { BookOpen, Heart, Calendar, Sparkles } from "lucide-react";
+import Link from "next/link";
 
 const contentItems = [
   {
-    icon: BookOpen,
-    title: 'Formação Espiritual',
-    description: 'Conteúdo profundo sobre a fé católica e vida de oração',
+    title: "Planejar o teu dia",
+    description:
+      "Planeje seu cotidiano com foco na fé, organizando horários, tarefas e prioridades espirituais.",
+    image: "/images/planner-diario.png",
+    alt: "Planner diário do Pack Católico",
   },
   {
-    icon: Heart,
-    title: 'Vida de Oração',
-    description: 'Exercícios práticos e reflexões diárias',
+    title: "Organizar os pensamentos",
+    description:
+      "O devocional diário ajuda a silenciar a mente e direcionar os pensamentos para Deus.",
+    image: "/images/devocional-diario.jpg",
+    alt: "Devocional diário do Pack Católico",
   },
   {
-    icon: Calendar,
-    title: 'Organização do Dia',
-    description: 'Planeje seu cotidiano com foco na fé',
-  },
-  {
-    icon: Sparkles,
-    title: 'Crescimento Interior',
-    description: 'Ferramentas para uma vida mais plena e santa',
+    title: "Cultivar a calma e a serenidade interior",
+    description:
+      "O mural de oração mantém vivas as intenções pelas quais você se ajoelha para rezar.",
+    image: "/images/mural-de-oracao.png",
+    alt: "Mural de oração do Pack Católico",
   },
 ];
 
 export default function GuideSection() {
   const [ref, inView] = useInView({
     triggerOnce: true,
-    threshold: 0.1,
+    threshold: 0.15,
   });
 
   return (
-    <section ref={ref} className="py-20 bg-white">
-      <div className="max-w-6xl mx-auto px-6">
+    <section ref={ref} className="py-24 bg-white">
+      <div className="max-w-6xl mx-auto px-6 space-y-24">
+        {/* Header */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.8 }}
-          className="grid md:grid-cols-2 gap-12 items-center"
+          className="text-center max-w-3xl mx-auto"
         >
-          {/* Left Column - Image */}
+          <h2 className="text-4xl font-serif font-bold text-[#C19A2E] mb-6">
+            Criado para quem quer rezar mais e meditar a Sagrada Escritura
+          </h2>
+          <p className="text-lg text-[#6B5B4F] leading-relaxed">
+            Muitas vezes não conseguimos rezar porque a nossa rotina está cheia;
+            outras vezes, pela preguiça espiritual; e, muitas vezes, por não
+            sabermos o que dizer em oração. Para ajudar a superar esses
+            entraves, o devocional contém ferramentas que vão te auxiliar a:
+          </p>
+        </motion.div>
+
+        {/* Content Blocks */}
+        {contentItems.map((item, index) => (
           <motion.div
-            initial={{ opacity: 0, x: -30 }}
-            animate={inView ? { opacity: 1, x: 0 } : {}}
-            transition={{ duration: 0.8, delay: 0.2 }}
-            className="relative"
+            key={index}
+            initial={{ opacity: 0, y: 40 }}
+            animate={inView ? { opacity: 1, y: 0 } : {}}
+            transition={{ duration: 0.8, delay: index * 0.2 }}
+            className={`grid md:grid-cols-2 gap-12 items-center ${
+              index % 2 !== 0 ? "md:flex-row-reverse" : ""
+            }`}
           >
-            <div className="relative aspect-[4/5] max-w-md mx-auto rounded-lg overflow-hidden shadow-2xl">
+            {/* Image */}
+            <div className="relative h-[600px] w-full rounded-xl overflow-hidden shadow-2xl">
               <Image
-                src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=500&h=600&fit=crop"
-                alt="Planner sobre a mesa"
+                src={item.image}
+                alt={item.alt}
                 fill
-                className="object-cover"
+                priority={index === 0}
+                className="object-contain"
               />
             </div>
-          </motion.div>
 
-          {/* Right Column - Content */}
-          <div className="space-y-8">
-            <h2 className="text-3xl md:text-4xl font-serif font-bold text-[#C19A2E]">
-              Um guia para ter os pés no chão e o coração no alto
-            </h2>
-
-            <p className="text-lg text-[#6B5B4F] leading-relaxed">
-              O Pack Católico é mais do que um material: é um companheiro diário para quem busca viver a fé com autenticidade e profundidade.
-            </p>
-
-            <div className="space-y-6">
-              {contentItems.map((item, index) => {
-                const Icon = item.icon;
-                return (
-                  <motion.div
-                    key={index}
-                    initial={{ opacity: 0, x: 20 }}
-                    animate={inView ? { opacity: 1, x: 0 } : {}}
-                    transition={{ delay: 0.1 * index, duration: 0.5 }}
-                    className="flex gap-4"
-                  >
-                    <div className="flex-shrink-0 w-12 h-12 rounded-full bg-[#F4E4C1] flex items-center justify-center">
-                      <Icon className="w-6 h-6 text-[#C19A2E]" />
-                    </div>
-                    <div>
-                      <h3 className="font-semibold text-lg text-gray-800 mb-1">
-                        {item.title}
-                      </h3>
-                      <p className="text-[#6B5B4F]">{item.description}</p>
-                    </div>
-                  </motion.div>
-                );
-              })}
+            {/* Text */}
+            <div className="space-y-4">
+              <h3 className="text-2xl font-serif font-bold text-gray-800">
+                {item.title}
+              </h3>
+              <p className="text-lg text-[#6B5B4F] leading-relaxed">
+                {item.description}
+              </p>
             </div>
+          </motion.div>
+        ))}
 
-            <Link
-              href="https://wa.me/244XXXXXXXXX?text=Quero%20o%20Pack%20Cat%C3%B3lico"
-              target="_blank"
-              className="inline-block bg-[#F4C430] hover:bg-[#E5B621] text-gray-900 font-bold text-lg px-10 py-4 rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl"
-            >
-              Quero meu Pack Católico
-            </Link>
-          </div>
+        <p className="text-lg text-[#6B5B4F] leading-relaxed text-center max-w-3xl mx-auto">
+          Ele inclui ainda um espaço que funciona como um lembrete constante das
+          intenções pelas quais te ajoelhas para rezar, ajudando-te a manter
+          viva a constância e a devoção, mesmo nos dias mais corridos.
+        </p>
+
+        {/* CTA */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={inView ? { opacity: 1, y: 0 } : {}}
+          transition={{ duration: 0.8, delay: 0.6 }}
+          className="text-center"
+        >
+          <Link
+            href="https://wa.me/244XXXXXXXXX?text=Quero%20o%20Pack%20Cat%C3%B3lico"
+            target="_blank"
+            className="inline-block bg-[#F4C430] hover:bg-[#E5B621] text-gray-900 font-bold text-lg px-12 py-4 rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl"
+          >
+            Quero meu Pack Católico
+          </Link>
         </motion.div>
       </div>
     </section>

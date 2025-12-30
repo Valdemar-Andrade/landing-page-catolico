@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
+import Image from 'next/image';
 
 export default function IntroStorytelling() {
   const [ref, inView] = useInView({
@@ -20,17 +21,22 @@ export default function IntroStorytelling() {
         >
           <div className="space-y-6">
             <p className="text-lg md:text-xl text-[#6B5B4F] leading-relaxed font-serif">
-              Há dias em que a vida parece escapar entre as mãos. Compromissos, urgências, distrações... e, sem perceber, <span className="font-semibold text-[#8B7355]">o essencial fica para depois</span>.
+              Se todos os anos prometes ler, estudar e meditar a Bíblia, rezar mais, estar mais ligado(a) à Igreja e, consequentemente, a Deus, mas não tens conseguido cumprir, chegaste ao lugar certo.
+			  <br />
+			  <br />
+			  <br />
+			  O <strong>Devocional Católico – Edição Janeiro</strong> foi criado para te conduzir, <strong>um dia de cada vez e sem pressão</strong>, a um encontro diário com Deus, por meio da Palavra, da reflexão e da oração.
             </p>
           </div>
 
           <div className="space-y-6">
-            <p className="text-lg md:text-xl text-[#6B5B4F] leading-relaxed font-serif">
-              O <span className="font-semibold italic">Pack Católico</span> nasceu para te ajudar a reencontrar esse silêncio fecundo — para que cada página se torne um espaço de encontro com Deus.
-            </p>
-            <p className="text-lg md:text-xl text-[#6B5B4F] leading-relaxed font-serif">
-              Com ele, você poderá planejar o seu dia, registrar intenções, acompanhar o tempo litúrgico e manter viva a constância na oração, mesmo nos dias mais corridos.
-            </p>
+            <Image
+              src="/images/capa.png"
+              alt="Capa do Devocional Católico"
+              width={400}
+              height={200}
+              className="rounded-2xl shadow-lg mx-auto"
+            />
           </div>
         </motion.div>
       </div>

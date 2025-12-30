@@ -11,10 +11,10 @@ export default function HeroSection() {
       {/* Hero Image with Text Overlay */}
       <div className="relative h-[600px] w-full overflow-hidden rounded-3xl mx-auto max-w-[1400px] px-6 mt-10 mb-10">
         <Image
-          src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=1400&h=600&fit=crop"
+          src="/images/hero-image.png"
           alt="Pack Católico Hero"
           fill
-          className="object-cover brightness-90"
+          className="object-cover brightness-80"
           priority
         />
         
@@ -27,9 +27,9 @@ export default function HeroSection() {
               transition={{ duration: 0.8 }}
               className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-white leading-tight mb-6"
             >
-              PARA TRANSFORMAR A SUA VIDA
-              <br />
-EM CAMINHO DE SANTIDADE.
+              Um encontro diário
+			  <br />
+			  com o Coração de Jesus
             </motion.h1>
 
             <motion.p
@@ -38,7 +38,7 @@ EM CAMINHO DE SANTIDADE.
               transition={{ duration: 0.8, delay: 0.2 }}
               className="text-lg md:text-xl text-white leading-relaxed mb-8 max-w-xl"
             >
-              O <strong>Pack Católico</strong> une oração e organização pessoal em um só lugar. Um espaço para cultivar a vida interior, planejar o que é essencial e encontrar, na ordem e na oração, o caminho da paz.
+              Um <strong>devocional católico</strong> para quem quer rezar mais, mas sente dificuldade em manter constância no dia a dia.
             </motion.p>
 
             <motion.div
@@ -51,7 +51,7 @@ EM CAMINHO DE SANTIDADE.
                 target="_blank"
                 className="inline-block bg-[#F4C430] hover:bg-[#E5B621] text-gray-900 font-bold text-lg px-10 py-4 rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl"
               >
-                GARANTIR MEU PACK CATÓLICO
+                ADQUIRIR MEU PACK CATÓLICO
               </Link>
             </motion.div>
           </div>

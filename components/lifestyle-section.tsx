@@ -23,20 +23,16 @@ export default function LifestyleSection() {
           {/* Left Column - Text */}
           <div className="space-y-8">
             <h2 className="text-3xl md:text-4xl font-serif text-[#6B5B4F] leading-tight">
-              Permita que 2026 seja um ano de oração, propósito e presença.
+              Todo ser que vive, louve o Senhor.
             </h2>
             
             <p className="text-lg text-[#6B5B4F] leading-relaxed font-serif">
-              Deixe que cada página te conduza a uma vida mais simples, ordenada e próxima de Deus.
+              Enquanto há tempo, construa uma vida de oração.
+              <br />
+              Faça de 2026 um ano de maior intimidade com Deus.
+              <br />
+              Ele é o teu maior aliado.
             </p>
-
-            <Link
-              href="https://wa.me/244XXXXXXXXX?text=Quero%20o%20Pack%20Cat%C3%B3lico"
-              target="_blank"
-              className="inline-block bg-[#C19A2E] hover:bg-[#A8861F] text-white font-bold text-lg px-10 py-4 rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl"
-            >
-              COMPRAR AGORA MEU PACK CATÓLICO
-            </Link>
           </div>
 
           {/* Right Column - Image */}
@@ -46,13 +42,14 @@ export default function LifestyleSection() {
             transition={{ duration: 0.8, delay: 0.3 }}
             className="relative"
           >
-            <div className="relative aspect-[4/5] rounded-lg overflow-hidden shadow-2xl">
-              <Image
-                src="https://images.unsplash.com/photo-1513694203232-719a280e022f?w=600&h=750&fit=crop"
-                alt="Ambiente de oração"
-                fill
-                className="object-cover"
-              />
+            <div className="">
+			  	<Image
+					src="/images/capa.png"
+					alt="Capa do Devocional Católico"
+					width={400}
+					height={200}
+					className="rounded-2xl shadow-lg mx-auto"
+				/>
             </div>
           </motion.div>
         </motion.div>

@@ -1,34 +1,37 @@
-'use client'
+"use client";
 
-import { motion } from 'framer-motion'
-import { useInView } from 'react-intersection-observer'
-import { Check, Sparkles, TrendingDown } from 'lucide-react'
-import WhatsAppButton from './whatsapp-button'
+import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+import { Check, Sparkles, TrendingDown } from "lucide-react";
+import WhatsAppButton from "./whatsapp-button";
 
 const individualPrices = [
-  { name: 'E-book Católico', price: '2.000 Kz' },
-  { name: 'Devocional', price: '2.000 Kz' },
-  { name: 'Planner Diário', price: '1.500 Kz' },
-  { name: 'Mural de Oração', price: '1.500 Kz' }
-]
+  { name: "E-book Católico", price: "2.000 Kz" },
+  { name: "Devocional", price: "2.000 Kz" },
+  { name: "Planner Diário", price: "1.500 Kz" },
+  { name: "Mural de Oração", price: "1.500 Kz" },
+];
 
 const packFeatures = [
-  'Acesso completo a todos os 4 produtos',
-  'Material em PDF de alta qualidade',
-  'Conteúdo prático e espiritual profundo',
-  'Pode imprimir e usar quantas vezes quiser',
-  'Economia de 1.000 Kz',
-  'Suporte via WhatsApp para dúvidas'
-]
+  "Acesso completo a todos os 4 produtos",
+  "Material em PDF de alta qualidade",
+  "Conteúdo prático e espiritual profundo",
+  "Pode imprimir e usar quantas vezes quiser",
+  "Economia de 1.000 Kz",
+  "Suporte via WhatsApp para dúvidas",
+];
 
 export default function PricingSectionV2() {
   const [ref, inView] = useInView({
     triggerOnce: true,
-    threshold: 0.1
-  })
+    threshold: 0.1,
+  });
 
   return (
-    <section id="precos" className="py-20 lg:py-32 bg-gradient-to-b from-[#F5F5DC] to-white">
+    <section
+      id="precos"
+      className="py-20 lg:py-32 bg-gradient-to-b from-[#F5F5DC] to-white"
+    >
       <div className="max-w-7xl mx-auto px-6">
         <motion.div
           ref={ref}
@@ -37,11 +40,11 @@ export default function PricingSectionV2() {
           transition={{ duration: 0.8 }}
           className="text-center mb-16"
         >
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
-            Investimento em sua <span className="text-gradient-gold">vida espiritual</span>
-          </h2>
-          <p className="text-lg md:text-xl text-gray-700 max-w-3xl mx-auto">
-            Um valor acessível para uma transformação que não tem preço.
+          <p className="text-xl md:text-xl text-gray-900 max-w-3xl mx-auto">
+            A vida espiritual é um dos pilares mais importantes da vida humana.
+            Quando ela está firme, os outros pilares também se fortalecem.
+            Investir na sua vida espiritual é investir em paz, clareza,
+            propósito e eternidade.
           </p>
         </motion.div>
 
@@ -53,10 +56,15 @@ export default function PricingSectionV2() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="bg-white rounded-2xl p-8 shadow-soft"
           >
-            <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">Preços Individuais</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">
+              Preços Individuais
+            </h3>
             <div className="space-y-4 mb-6">
               {individualPrices.map((item, index) => (
-                <div key={index} className="flex justify-between items-center pb-4 border-b border-gray-200">
+                <div
+                  key={index}
+                  className="flex justify-between items-center pb-4 border-b border-gray-200"
+                >
                   <span className="text-gray-700 font-medium">{item.name}</span>
                   <span className="text-gray-900 font-bold">{item.price}</span>
                 </div>
@@ -84,18 +92,26 @@ export default function PricingSectionV2() {
 
             <div className="bg-gradient-to-br from-[#F4E4C1] to-[#D4AF37] rounded-2xl p-1 shadow-soft-hover">
               <div className="bg-white rounded-xl p-8">
-                <h3 className="text-3xl font-bold text-gray-900 mb-2 text-center">Pack Católico Completo</h3>
-                <p className="text-center text-gray-600 mb-6">Os 4 produtos juntos</p>
+                <h3 className="text-3xl font-bold text-gray-900 mb-2 text-center">
+                  Pack Católico Completo
+                </h3>
+                <p className="text-center text-gray-600 mb-6">
+                  Os 4 produtos juntos
+                </p>
 
                 <div className="text-center mb-6">
                   <div className="flex items-center justify-center gap-3 mb-2">
-                    <span className="text-2xl text-gray-500 line-through">7.000 Kz</span>
+                    <span className="text-2xl text-gray-500 line-through">
+                      7.000 Kz
+                    </span>
                     <div className="flex items-center gap-2 bg-red-100 text-red-700 px-3 py-1 rounded-full">
                       <TrendingDown className="w-4 h-4" />
                       <span className="text-sm font-bold">-1.000 Kz</span>
                     </div>
                   </div>
-                  <div className="text-5xl font-bold text-gradient-gold mb-2">6.000 Kz</div>
+                  <div className="text-5xl font-bold text-gradient-gold mb-2">
+                    6.000 Kz
+                  </div>
                   <p className="text-gray-600">Economia de 1.000 Kz</p>
                 </div>
 
@@ -126,11 +142,13 @@ export default function PricingSectionV2() {
         >
           <div className="bg-gradient-rose rounded-2xl p-8 md:p-12 shadow-soft max-w-4xl mx-auto">
             <p className="text-xl md:text-2xl text-gray-800 leading-relaxed">
-              <strong>Não é um gasto, é um investimento.</strong> Investir em sua vida espiritual é investir em paz, clareza, propósito e eternidade. E isso não tem preço.
+              <strong>Não é um gasto, é um investimento.</strong> Investir em
+              sua vida espiritual é investir em paz, clareza, propósito e
+              eternidade. E isso não tem preço.
             </p>
           </div>
         </motion.div>
       </div>
     </section>
-  )
+  );
 }
