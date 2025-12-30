@@ -39,46 +39,27 @@ export default function AuthorBio() {
               professora.
             </p>
             <p className="text-lg text-[#6B5B4F] leading-relaxed font-serif">
-              A sua história com Deus sempre passou pela Igreja Católica:
-              cresceu entre terços, coros, catequeses e a vida comunitária.
+              Cresceu na Igreja Católica, entre a oração, a catequese e a vida
+              comunitária. Como muitos católicos, viveu também um período de
+              afastamento e questionamentos profundos sobre a fé.
             </p>
             <p className="text-lg text-[#6B5B4F] leading-relaxed font-serif">
-              Como acontece com muitos católicos, também viveu um tempo de
-              afastamento da Igreja, buscando respostas e soluções em outros
-              caminhos. Passou por dúvidas profundas sobre a fé e sobre a
-              própria Igreja.
+              Foi nesse tempo de busca que Deus a reconduziu à Igreja e
+              reacendeu nela o desejo de compreender e viver a fé católica com
+              mais verdade. No caminho da oração e do estudo, descobriu uma
+              Igreja profundamente cristocêntrica, o que transformou a sua forma
+              de rezar e de viver a fé.
             </p>
             <p className="text-lg text-[#6B5B4F] leading-relaxed font-serif">
-              Foi nesse tempo de inquietação que o Senhor a encontrou novamente
-              e reacendeu nela o desejo de compreender melhor a fé católica e de
-              viver com verdade aquilo que professamos.
+              Enquanto pedia a Deus orientação para um projeto pessoal,
+              sentiu-se chamada a algo maior: o nascimento do Católicos de
+              Oração. Na oração, Deus foi revelando o carisma e a missão do
+              projeto.
             </p>
             <p className="text-lg text-[#6B5B4F] leading-relaxed font-serif">
-              No caminho de estudo, oração e discernimento, foi descobrindo que
-              a Igreja, com toda a sua riqueza, doutrina e tradição, é
-              totalmente cristocêntrica: tudo o que nela se vive e se celebra
-              tem em vista Jesus Cristo, nosso Salvador.
-            </p>
-            <p className="text-lg text-[#6B5B4F] leading-relaxed font-serif">
-              Essa descoberta transformou a sua forma de rezar, de participar da
-              Missa e de viver a própria vocação.
-            </p>
-            <p className="text-lg text-[#6B5B4F] leading-relaxed font-serif">
-              Enquanto pedia a Deus ajuda e direção para um projeto pessoal,
-              sentiu-se interiormente conduzida a algo maior:{" "}
-              <strong>dar origem ao projeto Católicos de Oração</strong>.
-            </p>
-            <p className="text-lg text-[#6B5B4F] leading-relaxed font-serif">
-              Pouco a pouco, na oração, o Senhor foi iluminando o caminho —
-              desde a identidade do projeto, o seu carisma, até a forma concreta
-              de ajudar outras pessoas a rezar e a se aproximar d’Ele.
-            </p>
-            <p className="text-lg text-[#6B5B4F] leading-relaxed font-serif">
-              Hoje, Juelma coloca os seus dons profissionais e pessoais — do
-              Direito, da educação e do marketing digital — ao serviço da
-              evangelização, com o desejo de ajudar outros católicos a conhecer
-              a sua fé, aprofundá-la e vivê-la com mais consciência, amor e
-              entrega.
+              Hoje, coloca os seus dons pessoais e profissionais ao serviço da
+              evangelização, com o desejo de ajudar outros católicos a conhecer,
+              aprofundar e viver a fé com mais consciência e entrega.
             </p>
             <p className="text-lg text-[#8B7355] leading-relaxed font-serif italic">
               Esta é a missão que Deus colocou no seu coração.
