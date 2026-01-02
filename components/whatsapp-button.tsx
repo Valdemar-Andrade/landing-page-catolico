@@ -51,7 +51,7 @@ export default function WhatsAppButton({
         size === 'lg' && 'w-6 h-6',
         size === 'xl' && 'w-7 h-7'
       )} />
-      <span>Quero o Pack Católico</span>
+      <span>Quero o Devocional</span>
     </button>
   )
 }

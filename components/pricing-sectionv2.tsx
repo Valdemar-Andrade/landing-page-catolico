@@ -93,7 +93,7 @@ export default function PricingSectionV2() {
             <div className="bg-gradient-to-br from-[#F4E4C1] to-[#D4AF37] rounded-2xl p-1 shadow-soft-hover">
               <div className="bg-white rounded-xl p-8">
                 <h3 className="text-3xl font-bold text-gray-900 mb-2 text-center">
-                  Pack Católico Completo
+                  Devocional Completo
                 </h3>
                 <p className="text-center text-gray-600 mb-6">
                   Os 4 produtos juntos

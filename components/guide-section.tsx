@@ -10,14 +10,14 @@ const contentItems = [
   {
     title: "Planejar o teu dia",
     description:
-      "Planeje seu cotidiano com foco na fé, organizando horários, tarefas e prioridades espirituais.",
+      "Planeje seu cotidiano com foco na fé, organizando horários, tarefas e prioridades espirituais. O devocional diário ajuda a silenciar a mente e direcionar os pensamentos para Deus.",
     image: "/images/planner-diario.png",
     alt: "Planner diário do Pack Católico",
   },
   {
     title: "Organizar os pensamentos",
     description:
-      "O devocional diário ajuda a silenciar a mente e direcionar os pensamentos para Deus.",
+      "Este devocional ajuda-te a criar o hábito da oração e da meditação diária da Bíblia, mesmo quando queres rezar, mas não sabes como ou não consegues ser constante.",
     image: "/images/devocional-diario.jpg",
     alt: "Devocional diário do Pack Católico",
   },
@@ -102,15 +102,7 @@ export default function GuideSection() {
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.8, delay: 0.6 }}
           className="text-center"
-        >
-          <Link
-            href="https://wa.me/244XXXXXXXXX?text=Quero%20o%20Pack%20Cat%C3%B3lico"
-            target="_blank"
-            className="inline-block bg-[#F4C430] hover:bg-[#E5B621] text-gray-900 font-bold text-lg px-12 py-4 rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl"
-          >
-            Quero meu Pack Católico
-          </Link>
-        </motion.div>
+        ></motion.div>
       </div>
     </section>
   );

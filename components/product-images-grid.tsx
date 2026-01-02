@@ -21,7 +21,7 @@ const images = [
     caption: "Um encontro diário com a Palavra",
   },
   {
-    src: "images/mural-de-oracao.png",
+    src: "images/mural-de-oracao2.png",
     alt: "Página 4 - Mural de Oração",
     caption: "Um espaço para entregar intenções ao Senhor",
   },
