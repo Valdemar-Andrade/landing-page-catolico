@@ -1,8 +1,8 @@
-'use client';
+"use client";
 
-import { motion } from 'framer-motion';
-import { useInView } from 'react-intersection-observer';
-import Image from 'next/image';
+import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+import Image from "next/image";
 
 export default function IntroStorytelling() {
   const [ref, inView] = useInView({
@@ -21,11 +21,18 @@ export default function IntroStorytelling() {
         >
           <div className="space-y-6">
             <p className="text-lg md:text-xl text-[#6B5B4F] leading-relaxed font-serif">
-              Se todos os anos prometes ler, estudar e meditar a Bíblia, rezar mais, estar mais ligado(a) à Igreja e, consequentemente, a Deus, mas não tens conseguido cumprir, chegaste ao lugar certo.
-			  <br />
-			  <br />
-			  <br />
-			  O <strong>Devocional Católico – Edição Janeiro</strong> foi criado para te conduzir, <strong>um dia de cada vez e sem pressão</strong>, a um encontro diário com Deus, por meio da Palavra, da reflexão e da oração.
+              Se todos os anos prometes ler, estudar e meditar a Bíblia, rezar
+              mais, estar mais ligado(a) à Igreja e, consequentemente, a Deus,
+              mas não tens conseguido cumprir, chegaste ao lugar certo.
+              <br />
+              <br />
+              <br />O{" "}
+              <strong>
+                Diário de Oração e Meditação Católica – Edição Janeiro
+              </strong>{" "}
+              foi criado para te conduzir,{" "}
+              <strong>um dia de cada vez e sem pressão</strong>, a um encontro
+              diário com Deus, por meio da Palavra, da reflexão e da oração.
             </p>
           </div>
 
