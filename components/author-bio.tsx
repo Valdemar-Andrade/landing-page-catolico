@@ -98,7 +98,7 @@ export default function AuthorBio() {
             Para continuar, toque no botão abaixo ⬇
           </p>
           <Link
-            href="https://wa.me/244XXXXXXXXX?text=Quero%20o%20Pack%20Cat%C3%B3lico"
+            href="https://wa.me/244925022253?text=Quero%20o%20Diário%20de%20Oração%20e%20Meditação"
             target="_blank"
             className="inline-block bg-white hover:bg-gray-50 text-gray-800 font-bold text-lg px-10 py-4 rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl border-2 border-gray-300"
           >

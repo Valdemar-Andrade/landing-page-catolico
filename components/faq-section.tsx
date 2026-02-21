@@ -101,7 +101,7 @@ export default function FAQSection() {
               Entre em contato com nossa equipe
             </p>
             <Link
-              href="https://wa.me/244XXXXXXXXX?text=Tenho%20d%C3%BAvidas%20sobre%20o%20Pack%20Cat%C3%B3lico"
+              href="https://wa.me/244925022253?text=Tenho%20d%C3%BAvidas%20sobre%20o%20Pack%20Cat%C3%B3lico"
               target="_blank"
               className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#20BA5A] text-white font-bold text-lg px-10 py-4 rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl"
             >
