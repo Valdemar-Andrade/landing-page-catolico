@@ -10,7 +10,7 @@ interface WhatsAppButtonProps {
 }
 
 const WHATSAPP_LINK =
-  "https://wa.me/244XXXXXXXXX?text=Quero%20o%20Pack%20Cat%C3%B3lico";
+  "https://wa.me/244925022253?text=Quero%20o%20Meu%20Diário%20de%20Oração%20e%20Meditação";
 
 export default function WhatsAppButton({
   size = "md",
@@ -42,7 +42,7 @@ export default function WhatsAppButton({
         "inline-flex items-center gap-3 font-bold rounded-full transition-all duration-300 shadow-lg hover:shadow-xl",
         sizeClasses[size],
         variantClasses[variant],
-        className
+        className,
       )}
     >
       <MessageCircle
@@ -51,7 +51,7 @@ export default function WhatsAppButton({
           size === "sm" && "w-4 h-4",
           size === "md" && "w-5 h-5",
           size === "lg" && "w-6 h-6",
-          size === "xl" && "w-7 h-7"
+          size === "xl" && "w-7 h-7",
         )}
       />
       <span>Quero o Diário de Oração e Meditação</span>

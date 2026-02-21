@@ -7,7 +7,7 @@ import WhatsAppButton from "./whatsapp-button";
 
 const individualPrices = [
   { name: "E-book Católico", price: "2.000 Kz" },
-  { name: "Devocional", price: "2.000 Kz" },
+  { name: "Diário de Oração e Meditação", price: "2.000 Kz" },
   { name: "Planner Diário", price: "1.500 Kz" },
   { name: "Mural de Oração", price: "1.500 Kz" },
 ];
