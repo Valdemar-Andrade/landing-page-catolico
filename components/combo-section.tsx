@@ -24,9 +24,9 @@ export default function ComboSection() {
               Adquira o combo exclusivo
             </h2>
             <p className="text-lg md:text-xl text-[#6B5B4F] leading-relaxed max-w-3xl mx-auto">
-              O Devocional Católico é mais do que um material: é um companheiro
-              diário para quem deseja viver a fé com profundidade. Após a
-              aquisição, o material é entregue{" "}
+              O <strong>Diário de Oração e Meditação</strong> é mais do que um
+              material: é um companheiro diário para quem deseja viver a fé com
+              profundidade. Após a aquisição, o material é entregue{" "}
               <strong>imediatamente em formato digital.</strong>
             </p>
           </div>
@@ -92,7 +92,7 @@ export default function ComboSection() {
                     desc: "conteúdo formativo e inspiracional",
                   },
                   {
-                    title: "Devocional Diário",
+                    title: "Diário de Oração e Meditação",
                     desc: "para aprofundar sua vida de oração",
                   },
                   {

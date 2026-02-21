@@ -11,3 +11,4 @@ next-env.d.ts
 *.local
 tsconfig.tsbuildinfo
 .gitignore
+public/.DS_Store
