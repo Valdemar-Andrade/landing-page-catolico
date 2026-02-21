@@ -16,17 +16,17 @@ const cormorant = Cormorant_Garamond({
 });
 
 export const metadata: Metadata = {
-  title: "Pack Católico - Transforme sua Vida Espiritual",
+  title: "E-book Católico - Transforme sua Vida Espiritual",
   description:
-    "E-book, Devocional, Planner Diário e Mural de Oração para católicos que buscam intimidade com Deus e organização espiritual.",
+    "E-book, Diário de Oração e Meditação, Planner Diário e Mural de Oração para católicos que buscam intimidade com Deus e organização espiritual.",
   icons: {
     icon: "/favicon.svg",
     shortcut: "/favicon.svg",
   },
   openGraph: {
-    title: "Pack Católico - Transforme sua Vida Espiritual",
+    title: "E-book Católico - Transforme sua Vida Espiritual",
     description:
-      "E-book, Devocional, Planner Diário e Mural de Oração para católicos que buscam intimidade com Deus.",
+      "E-book, Diário de Oração e Meditação, Planner Diário e Mural de Oração para católicos que buscam intimidade com Deus.",
     images: ["/og-image.png"],
     type: "website",
   },
