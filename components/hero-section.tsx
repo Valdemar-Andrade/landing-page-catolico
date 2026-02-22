@@ -37,8 +37,8 @@ export default function HeroSection() {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="text-lg md:text-xl text-white leading-relaxed mb-8 max-w-xl"
             >
-              Um <strong>devocional católico</strong> para quem quer rezar mais,
-              mas sente dificuldade em manter constância no dia a dia.
+              Um <strong>Diáro católico</strong> para quem quer rezar mais, mas
+              sente dificuldade em manter constância no dia a dia.
             </motion.p>
 
             <motion.div
