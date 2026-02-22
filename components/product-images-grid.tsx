@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const images = [
   {
-    src: "images/capa.png",
+    src: "images/capa.jpeg",
     alt: "Página 1 - Capa do Diário de Oração e Meditação Católica",
     caption: "31 Dias com Deus",
   },
@@ -16,7 +16,7 @@ const images = [
     caption: "Organizando o dia à luz de Deus.",
   },
   {
-    src: "images/devocional-diario.jpg",
+    src: "images/devocional-diario.jpeg",
     alt: "Página 3 - Diário de Oração e Meditação Católica",
     caption: "Um encontro diário com a Palavra",
   },

@@ -78,10 +78,10 @@ export default function AuthorBio() {
           >
             <div className="relative aspect-square rounded-lg overflow-hidden shadow-xl">
               <Image
-                src="https://cdn.abacus.ai/images/e0637b3a-b7c4-4c39-80ec-3ae88b3ac34b.png"
+                src="/images/Juelma Nele.jpeg"
                 alt="Juelma Nele Vunge"
                 fill
-                className="object-cover"
+                className="object-contain"
               />
             </div>
           </motion.div>
@@ -98,7 +98,7 @@ export default function AuthorBio() {
             Para continuar, toque no botão abaixo ⬇
           </p>
           <Link
-            href="https://wa.me/244925022253?text=Quero%20o%20Diário%20de%20Oração%20e%20Meditação"
+            href="https://wa.me/244929426535?text=Quero%20o%20Diário%20de%20Oração%20e%20Meditação"
             target="_blank"
             className="inline-block bg-white hover:bg-gray-50 text-gray-800 font-bold text-lg px-10 py-4 rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl border-2 border-gray-300"
           >

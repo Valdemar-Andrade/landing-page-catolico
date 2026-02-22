@@ -18,7 +18,7 @@ const contentItems = [
     title: "Organizar os pensamentos",
     description:
       "Este devocional ajuda-te a criar o hábito da oração e da meditação diária da Bíblia, mesmo quando queres rezar, mas não sabes como ou não consegues ser constante.",
-    image: "/images/devocional-diario.jpg",
+    image: "/images/devocional-diario.jpeg",
     alt: "Devocional diário do Pack Católico",
   },
   {

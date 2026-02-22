@@ -2,7 +2,6 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
-import Link from "next/link";
 
 export default function HeroSection() {
   return (
@@ -11,7 +10,7 @@ export default function HeroSection() {
       <div className="relative h-[600px] w-full overflow-hidden rounded-3xl mx-auto max-w-[1400px] px-6 mt-10 mb-10">
         <Image
           src="/images/hero-image.png"
-          alt="Pack Devocional Católico Hero"
+          alt="Diário Católico Hero"
           fill
           className="object-cover brightness-80"
           priority

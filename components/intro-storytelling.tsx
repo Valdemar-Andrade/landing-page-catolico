@@ -38,8 +38,8 @@ export default function IntroStorytelling() {
 
           <div className="space-y-6">
             <Image
-              src="/images/capa.png"
-              alt="Capa do Devocional Católico"
+              src="/images/capa.jpeg"
+              alt="Capa do Diário Católico"
               width={400}
               height={200}
               className="rounded-2xl shadow-lg mx-auto"

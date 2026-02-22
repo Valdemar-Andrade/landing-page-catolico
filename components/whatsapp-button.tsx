@@ -10,7 +10,7 @@ interface WhatsAppButtonProps {
 }
 
 const WHATSAPP_LINK =
-  "https://wa.me/244925022253?text=Quero%20o%20Meu%20Diário%20de%20Oração%20e%20Meditação";
+  "https://wa.me/244929426535?text=Quero%20o%20Meu%20Diário%20de%20Oração%20e%20Meditação";
 
 export default function WhatsAppButton({
   size = "md",

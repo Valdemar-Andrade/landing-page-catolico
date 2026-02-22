@@ -1,9 +1,8 @@
-'use client';
+"use client";
 
-import { motion } from 'framer-motion';
-import { useInView } from 'react-intersection-observer';
-import Image from 'next/image';
-import Link from 'next/link';
+import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+import Image from "next/image";
 
 export default function LifestyleSection() {
   const [ref, inView] = useInView({
@@ -12,7 +11,10 @@ export default function LifestyleSection() {
   });
 
   return (
-    <section ref={ref} className="py-20 bg-gradient-to-b from-[#F5F5DC] to-white">
+    <section
+      ref={ref}
+      className="py-20 bg-gradient-to-b from-[#F5F5DC] to-white"
+    >
       <div className="max-w-6xl mx-auto px-6">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -25,7 +27,7 @@ export default function LifestyleSection() {
             <h2 className="text-3xl md:text-4xl font-serif text-[#6B5B4F] leading-tight">
               Todo ser que vive, louve o Senhor.
             </h2>
-            
+
             <p className="text-lg text-[#6B5B4F] leading-relaxed font-serif">
               Enquanto há tempo, construa uma vida de oração.
               <br />
@@ -43,13 +45,13 @@ export default function LifestyleSection() {
             className="relative"
           >
             <div className="">
-			  	<Image
-					src="/images/capa.png"
-					alt="Capa do Devocional Católico"
-					width={400}
-					height={200}
-					className="rounded-2xl shadow-lg mx-auto"
-				/>
+              <Image
+                src="/images/capa.jpeg"
+                alt="Capa do Diário Católico"
+                width={400}
+                height={200}
+                className="rounded-2xl shadow-lg mx-auto"
+              />
             </div>
           </motion.div>
         </motion.div>
