@@ -21,18 +21,24 @@ export default function IntroStorytelling() {
         >
           <div className="space-y-6">
             <p className="text-lg md:text-xl text-[#6B5B4F] leading-relaxed font-serif">
-              Se todos os anos prometes ler, estudar e meditar a Bíblia, rezar
-              mais, estar mais ligado(a) à Igreja e, consequentemente, a Deus,
-              mas não tens conseguido cumprir, chegaste ao lugar certo.
+              Se tens dúvidas ou não compreendes bem a doutrina e as práticas da
+              Igreja Católica, e isso te leva à preguiça de ir à Missa ou de
+              rezar…
               <br />
               <br />
-              <br />O{" "}
-              <strong>
-                Diário de Oração e Meditação Católica – Edição Janeiro
-              </strong>{" "}
-              foi criado para te conduzir,{" "}
-              <strong>um dia de cada vez e sem pressão</strong>, a um encontro
-              diário com Deus, por meio da Palavra, da reflexão e da oração.
+              Se prometes sempre que vais rezar mais, ler a Bíblia e viver mais
+              a tua fé, mas não consegues.
+              <br />
+              Tentas durante alguns dias… e depois amorneces.
+              <br />
+              E isso gera em ti um certo aborrecimento, um peso interior…
+              <br />
+              <br />
+              Ou talvez tenhas confiado em Deus, rezado, jejuado, feito o que
+              estava ao teu alcance… e ainda assim não alcançaste a graça que
+              pediste. E essa frustração te afastou.
+              <br />
+              Foste perdendo o ânimo de rezar. De ir à Missa com frequência.
             </p>
           </div>
 
