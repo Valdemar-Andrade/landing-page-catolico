@@ -143,9 +143,12 @@ export default function PricingSectionV2() {
         >
           <div className="bg-gradient-rose rounded-2xl p-8 md:p-12 shadow-soft max-w-4xl mx-auto">
             <p className="text-xl md:text-2xl text-gray-800 leading-relaxed">
-              <strong>Não é um gasto, é um investimento.</strong> Investir em
-              sua vida espiritual é investir em paz, clareza, propósito e
-              eternidade. E isso não tem preço.
+              <strong>🎁 BÔNUS EXCLUSIVO:</strong> Na compra do Diário de Oração
+              e Meditação Católica, você recebe gratuitamente um{" "}
+              <strong>Mural de Oração Digital</strong> que funciona como um
+              lembrete poderoso. Neste mural você pode escrever suas intenções e
+              colocar fotos de pessoas pelas quais pretende orar, criando um
+              espaço sagrado e personalizado para sua vida de fé.
             </p>
           </div>
         </motion.div>
