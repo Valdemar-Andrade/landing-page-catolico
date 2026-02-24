@@ -8,7 +8,7 @@ const images = [
   {
     src: "images/capa.jpeg",
     alt: "Página 1 - Capa do Diário de Oração e Meditação Católica",
-    caption: "31 Dias com Deus",
+    caption: "21 Dias com Deus",
   },
   {
     src: "images/planner-diario.png",
