@@ -14,7 +14,7 @@ const faqs = [
   {
     question: "Quais são as formas de pagamento disponíveis?",
     answer:
-      "Aceitamos diversas formas de pagamento. Entre em contato via WhatsApp e nossa equipe te apresentará todas as opções disponíveis para você.",
+      "Aceitamos diversas formas de pagamento: Transferência bancária e Transferência Express.",
   },
   {
     question: "Vocês enviam para toda Angola?",
@@ -34,7 +34,7 @@ const faqs = [
   {
     question: "Posso alterar ou cancelar meu pedido após a compra?",
     answer:
-      "Por se tratar de materiais digitais, não é possível cancelamento após o envio. Porém, antes do envio, você pode entrar em contato via WhatsApp para solicitar alterações.",
+      "🔒 Garantia de 2 Dias --- Mesmo sendo um material digital, oferecemos uma garantia de 2 dias após a aquisição. Se, por algum motivo, sentires que o Diário não é para ti, devolvemos o valor investido — sem complicações. Confiamos na honestidade e na boa fé de quem caminha connosco. O conteúdo é de uso pessoal e não deve ser partilhado ou comercializado.",
   },
   {
     question: "E se o arquivo chegar com defeito ou danificado?",

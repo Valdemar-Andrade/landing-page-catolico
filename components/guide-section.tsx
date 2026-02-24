@@ -8,23 +8,23 @@ import Link from "next/link";
 
 const contentItems = [
   {
-    title: "Planejar o teu dia",
+    title: "Um espaço simples para organizar o teu dia.",
     description:
-      "Planeje seu cotidiano com foco na fé, organizando horários, tarefas e prioridades espirituais. O devocional diário ajuda a silenciar a mente e direcionar os pensamentos para Deus.",
+      "Aqui colocas no papel o que tens para fazer, o que precisa mesmo da tua atenção e o que pode esperar. Porque quando tudo fica só na cabeça, vem a confusão e o cansaço. O dia tem 24 horas. Não se resolve nem se pensa tudo num só dia. Organizar o teu dia ajuda-te a criar tempo e espaço para Deus.",
     image: "/images/planner-diario.png",
     alt: "Planner diário do Pack Católico",
   },
   {
-    title: "Organizar os pensamentos",
+    title: "Meditar com Direção",
     description:
-      "Este devocional ajuda-te a criar o hábito da oração e da meditação diária da Bíblia, mesmo quando queres rezar, mas não sabes como ou não consegues ser constante.",
+      "Todos os dias encontrarás um trecho da Palavra já escolhido para aquele dia. Não vais abrir a Bíblia ao acaso, nem ler apenas por ler. A cada dia terás uma reflexão simples, clara e ligada à vida real.",
     image: "/images/devocional-diario.jpeg",
     alt: "Devocional diário do Pack Católico",
   },
   {
-    title: "Cultivar a calma e a serenidade interior",
+    title: "Um Espaço Para Escrever e Descarregar",
     description:
-      "O mural de oração mantém vivas as intenções pelas quais você se ajoelha para rezar.",
+      "Há dias em que a mente está cheia.\nPensamentos acumulados.\nPreocupações.\nCoisas que não conseguimos dizer em voz alta.\nNeste diário, tens um espaço livre para escrever.\nPara colocar no papel o que pesa.\nPara organizar o que está confuso.\nPara esvaziar a mente e trazer clareza ao coração.",
     image: "/images/mural-de-oracao.png",
     alt: "Mural de oração do Pack Católico",
   },
@@ -83,12 +83,6 @@ export default function GuideSection() {
             </div>
           </motion.div>
         ))}
-
-        <p className="text-lg text-[#6B5B4F] leading-relaxed text-center max-w-3xl mx-auto">
-          Ele inclui ainda um espaço que funciona como um lembrete constante das
-          intenções pelas quais te ajoelhas para rezar, ajudando-te a manter
-          viva a constância e a devoção, mesmo nos dias mais corridos.
-        </p>
 
         {/* CTA */}
         <motion.div

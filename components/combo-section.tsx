@@ -21,13 +21,13 @@ export default function ComboSection() {
         >
           <div className="text-center space-y-6">
             <h2 className="text-3xl md:text-5xl font-serif font-bold text-[#C19A2E]">
-              Adquira o combo exclusivo
+              Formato do Diário
             </h2>
             <p className="text-lg md:text-xl text-[#6B5B4F] leading-relaxed max-w-3xl mx-auto">
-              O <strong>Diário de Oração e Meditação</strong> é mais do que um
-              material: é um companheiro diário para quem deseja viver a fé com
-              profundidade. Após a aquisição, o material é entregue{" "}
-              <strong>imediatamente em formato digital.</strong>
+              Este <strong>diário</strong> está disponível em formato digital
+              (PDF). Após a confirmação da compra, recebes o ficheiro para
+              imprimir e utilizar no teu ritmo. Podes imprimir em casa ou numa
+              gráfica, da forma que for mais conveniente para ti.
             </p>
           </div>
 
@@ -45,7 +45,7 @@ export default function ComboSection() {
                   <div className="overflow-hidden rounded-2xl shadow-xl border border-gray-100 aspect-[4/3]">
                     <Image
                       src="/images/print-devocional.png"
-                      alt="Imagem de Devocional para impressão"
+                      alt="Imagem do diário para impressão"
                       fill
                       className="object-cover"
                     />
@@ -65,8 +65,8 @@ export default function ComboSection() {
                 >
                   <div className="aspect-[3/4] relative">
                     <Image
-                      src="/images/devocional-book.png"
-                      alt="Livro Devocional"
+                      src="/images/devocional-book.jpeg"
+                      alt="Livro Diário de Oração e Meditação Católica"
                       fill
                       className="rounded-lg object-contain"
                     />

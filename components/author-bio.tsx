@@ -35,13 +35,13 @@ export default function AuthorBio() {
             className="space-y-6"
           >
             <p className="text-lg text-[#6B5B4F] leading-relaxed font-serif">
-              <strong>Juelma Nele Vunge</strong> é mãe, esposa, advogada e
-              professora.
+              <strong>Juelma Nele Vunge</strong> é mãe, esposa, advogada,
+              professora e empreendedora.
             </p>
             <p className="text-lg text-[#6B5B4F] leading-relaxed font-serif">
               Cresceu na Igreja Católica, entre a oração, a catequese e a vida
               comunitária. Como muitos católicos, viveu também um período de
-              afastamento e questionamentos profundos sobre a fé.
+              afastamento e questionamentos profundos sobre a fé Católica.
             </p>
             <p className="text-lg text-[#6B5B4F] leading-relaxed font-serif">
               Foi nesse tempo de busca que Deus a reconduziu à Igreja e
@@ -51,10 +51,10 @@ export default function AuthorBio() {
               de rezar e de viver a fé.
             </p>
             <p className="text-lg text-[#6B5B4F] leading-relaxed font-serif">
-              Enquanto pedia a Deus orientação para um projeto pessoal,
+              Enquanto pedia a Deus orientação para um projecto pessoal,
               sentiu-se chamada a algo maior: o nascimento do Católicos de
-              Oração. Na oração, Deus foi revelando o carisma e a missão do
-              projeto.
+              Oração. Na oração, Deus foi revelando o carisma e a missão da
+              obra.
             </p>
             <p className="text-lg text-[#6B5B4F] leading-relaxed font-serif">
               Hoje, coloca os seus dons pessoais e profissionais ao serviço da

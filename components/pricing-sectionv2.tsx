@@ -48,8 +48,9 @@ export default function PricingSectionV2() {
           </p>
         </motion.div>
 
-        <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+        <div className="flex items-center justify-center">
           {/* Individual Prices */}
+          {/*
           <motion.div
             initial={{ opacity: 0, x: -30 }}
             animate={inView ? { opacity: 1, x: 0 } : {}}
@@ -74,7 +75,7 @@ export default function PricingSectionV2() {
               <span className="text-xl font-bold text-gray-900">Total</span>
               <span className="text-2xl font-bold text-gray-900">7.000 Kz</span>
             </div>
-          </motion.div>
+          </motion.div>*/}
 
           {/* Pack Price - Highlighted */}
           <motion.div
@@ -93,7 +94,7 @@ export default function PricingSectionV2() {
             <div className="bg-gradient-to-br from-[#F4E4C1] to-[#D4AF37] rounded-2xl p-1 shadow-soft-hover">
               <div className="bg-white rounded-xl p-8">
                 <h3 className="text-3xl font-bold text-gray-900 mb-2 text-center">
-                  Diário de Oração e Meditação Completo
+                  Diário de Oração e Meditação Católica
                 </h3>
                 <p className="text-center text-gray-600 mb-6">
                   Os 4 produtos juntos
