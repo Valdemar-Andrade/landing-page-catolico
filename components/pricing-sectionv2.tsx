@@ -96,24 +96,10 @@ export default function PricingSectionV2() {
                 <h3 className="text-3xl font-bold text-gray-900 mb-2 text-center">
                   Diário de Oração e Meditação Católica
                 </h3>
-                <p className="text-center text-gray-600 mb-6">
-                  Os 4 produtos juntos
-                </p>
-
                 <div className="text-center mb-6">
-                  <div className="flex items-center justify-center gap-3 mb-2">
-                    <span className="text-2xl text-gray-500 line-through">
-                      7.000 Kz
-                    </span>
-                    <div className="flex items-center gap-2 bg-red-100 text-red-700 px-3 py-1 rounded-full">
-                      <TrendingDown className="w-4 h-4" />
-                      <span className="text-sm font-bold">-3.500 Kz</span>
-                    </div>
-                  </div>
                   <div className="text-5xl font-bold text-gradient-gold mb-2">
                     3.500 Kz
                   </div>
-                  <p className="text-gray-600">Economia de 3.500 Kz</p>
                 </div>
 
                 <div className="space-y-3 mb-8">
