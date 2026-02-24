@@ -175,8 +175,6 @@ export default function IntroStorytelling() {
             </div>
 
             <div className="border-t border-[#D4AF8C] pt-6 mt-6 space-y-4 font-serif text-[#6B5B4F] text-sm leading-relaxed">
-              <p>Eu também já fui essa pessoa.</p>
-
               <p>
                 Todos os dias terás uma estrutura simples de oração, meditação
                 da Palavra e organização do teu dia.

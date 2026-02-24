@@ -49,12 +49,6 @@ export default function GuideSection() {
           <h2 className="text-4xl font-serif font-bold text-[#C19A2E] mb-6">
             Criado para quem quer rezar mais e meditar a Sagrada Escritura
           </h2>
-          <p className="text-lg text-[#6B5B4F] leading-relaxed">
-            Muitas vezes não conseguimos rezar porque a nossa rotina está cheia;
-            outras vezes, pela preguiça espiritual; e, muitas vezes, por não
-            sabermos o que dizer em oração. Para ajudar a superar esses
-            entraves, o devocional contém ferramentas que vão te auxiliar a:
-          </p>
         </motion.div>
 
         {/* Content Blocks */}
