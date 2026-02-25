@@ -237,23 +237,22 @@ export default function IntroStorytelling() {
 
                   <p>
                     ✝ Para quem já percebeu que viver apenas com a própria força
-                    traz desgaste, confusão e cansaço interior.
+                    traz desgaste.
                   </p>
 
                   <p>
-                    ✝ Para quem deseja depender mais de Deus nas decisões, nas
-                    lutas e nas escolhas do dia a dia.
+                    ✝ Para quem deseja depender mais de Deus nas decisões do dia
+                    a dia.
                   </p>
 
                   <p>
-                    ✝ Para quem quer fazer da oração parte da vida — não apenas
-                    um momento ocasional.
+                    ✝ Para quem quer fazer da oração parte da vida — e não
+                    apenas um momento ocasional.
                   </p>
 
                   <p>
-                    ✝ Para quem quer caminhar com Deus, mesmo quando não se
-                    entendem os Seus desígnios, mesmo quando Ele parece estar em
-                    silêncio — na dor e na alegria.
+                    ✝ Para quem quer caminhar com Deus, mesmo quando Ele parece
+                    estar em silêncio — na dor e na alegria.
                   </p>
 
                   <p>✝ Quer aprender a fé Católica de forma simples</p>
