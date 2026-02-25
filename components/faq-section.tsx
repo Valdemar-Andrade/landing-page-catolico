@@ -14,7 +14,7 @@ const faqs = [
   {
     question: "Quais são as formas de pagamento disponíveis?",
     answer:
-      "Aceitamos diversas formas de pagamento: Transferência bancária e Transferência Express.",
+      "Aceitamos diversas formas de pagamento: Transferência bancária, Transferência Express e Depósito Bancário.",
   },
   {
     question: "Vocês enviam para toda Angola?",

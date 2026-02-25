@@ -37,7 +37,7 @@ export default function IntroStorytelling() {
               <br />
               Ou talvez tenhas confiado em Deus, rezado, jejuado, feito o que
               estava ao teu alcance… e ainda assim não alcançaste a graça que
-              pediste. E essa frustração te afastou.
+              pediste. E essa frustração te afastou de Deus.
               <br />
               Foste perdendo o ânimo de rezar. De ir à Missa com frequência.
             </p>
@@ -105,7 +105,7 @@ export default function IntroStorytelling() {
             </h3>
 
             <p className="font-serif text-[#6B5B4F] mb-6">
-              Durante 21 dias, vais saber exatamente:
+              Durante 21 dias, vais saber exactamente:
             </p>
 
             {/* ITEM 1 */}
@@ -160,7 +160,7 @@ export default function IntroStorytelling() {
 
                 <div>
                   <p className="font-serif font-semibold text-[#6B5B4F] mb-2">
-                    Um encontro marcado com Deus.
+                    Que tens um encontro marcado com Deus.
                   </p>
 
                   <p className="font-serif text-[#6B5B4F] text-sm leading-relaxed">
@@ -215,29 +215,48 @@ export default function IntroStorytelling() {
                 </h4>
 
                 <div className="space-y-3 font-serif text-[#6B5B4F]">
-                  <p>✝ procura soluções mágicas ou respostas imediatas</p>
+                  <p>✝ Procura soluções mágicas ou respostas imediatas</p>
 
-                  <p>✝ quer apenas emoção espiritual sem compromisso</p>
+                  <p>✝ Quer apenas emoção espiritual sem compromisso</p>
 
-                  <p>✝ não está disposto a separar alguns minutos do dia</p>
+                  <p>✝ Não está disposto a separar alguns minutos do dia</p>
 
-                  <p>✝ quer discutir fé… mas não quer vivê-la</p>
+                  <p>✝ Quer discutir fé… mas não quer vivê-la</p>
                 </div>
               </div>
 
               <div>
                 <h4 className="font-serif text-[#6B5B4F] mb-4 font-semibold">
-                  Este Diário É Para Quem Deseja Recomeçar
+                  Para Quem Já Não Quer Viver Só por Si Mesmo
                 </h4>
 
                 <div className="space-y-3 font-serif text-[#6B5B4F]">
-                  <p>✝ reconhece que precisa aprender a orar</p>
+                  <p>
+                    ✝ Para quem está cansado de tentar resolver tudo sozinho
+                  </p>
 
-                  <p>✝ deseja sair da mornidão espiritual</p>
+                  <p>
+                    ✝ Para quem já percebeu que viver apenas com a própria força
+                    traz desgaste, confusão e cansaço interior.
+                  </p>
 
-                  <p>✝ quer caminhar com Deus mesmo no silêncio</p>
+                  <p>
+                    ✝ Para quem deseja depender mais de Deus nas decisões, nas
+                    lutas e nas escolhas do dia a dia.
+                  </p>
 
-                  <p>✝ quer aprender a fé católica de forma simples</p>
+                  <p>
+                    ✝ Para quem quer fazer da oração parte da vida — não apenas
+                    um momento ocasional.
+                  </p>
+
+                  <p>
+                    ✝ Para quem quer caminhar com Deus, mesmo quando não se
+                    entendem os Seus desígnios, mesmo quando Ele parece estar em
+                    silêncio — na dor e na alegria.
+                  </p>
+
+                  <p>✝ Quer aprender a fé Católica de forma simples</p>
                 </div>
               </div>
             </div>
