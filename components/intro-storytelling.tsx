@@ -182,12 +182,6 @@ export default function IntroStorytelling() {
 
               <p>Já não vais improvisar.</p>
 
-              <p>
-                Esta edição acompanha-nos até março. A partir de abril,
-                iniciaremos as edições mensais, para que possas continuar a tua
-                caminhada de forma contínua ao longo do ano.
-              </p>
-
               <p className="font-semibold">
                 Os 21 dias são o começo de um hábito que transforma vidas.
               </p>

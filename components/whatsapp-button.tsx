@@ -7,6 +7,7 @@ interface WhatsAppButtonProps {
   size?: "sm" | "md" | "lg" | "xl";
   variant?: "green" | "white";
   className?: string;
+  text?: string;
 }
 
 const WHATSAPP_LINK =
@@ -16,6 +17,7 @@ export default function WhatsAppButton({
   size = "md",
   variant = "green",
   className,
+  text = "Quero o Diário de Oração e Meditação",
 }: WhatsAppButtonProps) {
   const sizeClasses = {
     sm: "px-4 py-2 text-sm",
@@ -54,7 +56,7 @@ export default function WhatsAppButton({
           size === "xl" && "w-7 h-7",
         )}
       />
-      <span>Quero o Diário de Oração e Meditação</span>
+      <span>{text}</span>
     </button>
   );
 }

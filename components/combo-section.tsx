@@ -99,10 +99,6 @@ export default function ComboSection() {
                     title: "Planner Diário",
                     desc: "para organizar seu cotidiano com fé",
                   },
-                  {
-                    title: "Mural de Oração",
-                    desc: "para registrar suas intenções",
-                  },
                 ].map((item, index) => (
                   <li key={index} className="flex items-start gap-4">
                     <span className="flex-shrink-0 w-6 h-6 rounded-full bg-[#C19A2E] text-white flex items-center justify-center text-xs">
