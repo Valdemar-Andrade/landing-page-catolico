@@ -45,7 +45,7 @@ export default function IntroStorytelling() {
 
           <div className="flex justify-center">
             <Image
-              src="/images/capa.jpeg"
+              src="/images/capa_.jpeg"
               alt="Capa do Diário Católico"
               width={420}
               height={300}

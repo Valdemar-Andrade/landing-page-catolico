@@ -6,24 +6,24 @@ import Image from "next/image";
 
 const images = [
   {
-    src: "images/capa.jpeg",
-    alt: "Página 1 - Capa do Diário de Oração e Meditação Católica",
-    caption: "21 Dias com Deus",
+    src: "images/terço mãos ensanguentadas.jpeg",
+    alt: "Terço das mãos ensanguentadas, simbolizando a dor e a luta espiritual.",
+    caption: "Reze o terço das mãos ensanguentadas.",
   },
   {
-    src: "images/planner-diario.png",
-    alt: "Página 2 - Planner Diário",
-    caption: "Organizando o dia à luz de Deus.",
+    src: "images/conhecendo a vida dos santos.jpeg",
+    alt: "Página do e-book mostrando a vida de um santo, com ilustrações e textos inspiradores.",
+    caption: "Conheça a vida dos santos e inspire-se em seus exemplos de fé.",
   },
   {
     src: "images/devocional-diario.jpeg",
-    alt: "Página 3 - Diário de Oração e Meditação Católica",
+    alt: "Diário de Oração e Meditação Católica",
     caption: "Um encontro diário com a Palavra",
   },
   {
-    src: "images/mural-de-oracao2.png",
-    alt: "Página 4 - Mural de Oração",
-    caption: "Um espaço para entregar intenções ao Senhor",
+    src: "images/perguntas sobre a fé.jpeg",
+    alt: "Respostas para as perguntas mais comuns sobre a fé católica, apresentadas de forma clara e acessível.",
+    caption: "Respostas para as perguntas mais comuns sobre a fé católica.",
   },
 ];
 
