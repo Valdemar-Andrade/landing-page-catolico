@@ -6,12 +6,12 @@ import Image from "next/image";
 
 const images = [
   {
-    src: "images/terço mãos ensanguentadas.jpeg",
+    src: "images/terco-maos-ensanguentadas.jpeg",
     alt: "Terço das mãos ensanguentadas, simbolizando a dor e a luta espiritual.",
     caption: "Reze o terço das mãos ensanguentadas.",
   },
   {
-    src: "images/conhecendo a vida dos santos.jpeg",
+    src: "images/conhecendo-a-vida-dos-santos.jpeg",
     alt: "Página do e-book mostrando a vida de um santo, com ilustrações e textos inspiradores.",
     caption: "Conheça a vida dos santos e inspire-se em seus exemplos de fé.",
   },
@@ -21,7 +21,7 @@ const images = [
     caption: "Um encontro diário com a Palavra",
   },
   {
-    src: "images/perguntas sobre a fé.jpeg",
+    src: "images/perguntas-sobre-a-fe.jpeg",
     alt: "Respostas para as perguntas mais comuns sobre a fé católica, apresentadas de forma clara e acessível.",
     caption: "Respostas para as perguntas mais comuns sobre a fé católica.",
   },
