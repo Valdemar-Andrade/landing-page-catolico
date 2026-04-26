@@ -221,32 +221,31 @@ export default function IntroStorytelling() {
 
               <div>
                 <h4 className="font-serif text-[#6B5B4F] mb-4 font-semibold">
-                  Para Quem Já Não Quer Viver Só por Si Mesmo
+                  É para quem:
                 </h4>
 
                 <div className="space-y-3 font-serif text-[#6B5B4F]">
+                  <p>✝ Já não quer viver por si mesmo</p>
+
+                  <p>✝ Está cansado de tentar resolver tudo sozinho</p>
+
                   <p>
-                    ✝ Para quem está cansado de tentar resolver tudo sozinho
+                    ✝ Já percebeu que viver apenas com a própria força traz
+                    desgaste.
                   </p>
 
                   <p>
-                    ✝ Para quem já percebeu que viver apenas com a própria força
-                    traz desgaste.
+                    ✝ Deseja depender mais de Deus nas decisões do dia a dia.
                   </p>
 
                   <p>
-                    ✝ Para quem deseja depender mais de Deus nas decisões do dia
-                    a dia.
+                    ✝ Quer fazer da oração parte da vida — e não apenas um
+                    momento ocasional.
                   </p>
 
                   <p>
-                    ✝ Para quem quer fazer da oração parte da vida — e não
-                    apenas um momento ocasional.
-                  </p>
-
-                  <p>
-                    ✝ Para quem quer caminhar com Deus, mesmo quando Ele parece
-                    estar em silêncio — na dor e na alegria.
+                    ✝ Quer caminhar com Deus, mesmo quando Ele parece estar em
+                    silêncio — na dor e na alegria.
                   </p>
 
                   <p>✝ Quer aprender a fé Católica de forma simples</p>

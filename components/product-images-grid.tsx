@@ -8,12 +8,13 @@ const images = [
   {
     src: "images/terco-maos-ensanguentadas.jpeg",
     alt: "Terço das mãos ensanguentadas, simbolizando a dor e a luta espiritual.",
-    caption: "Reze o terço das mãos ensanguentadas.",
+    caption:
+      "Reze o terço das mãos ensanguentadas de Jesus para pedir a cura de alguma doença física ou espiritual.",
   },
   {
     src: "images/conhecendo-a-vida-dos-santos.jpeg",
     alt: "Página do e-book mostrando a vida de um santo, com ilustrações e textos inspiradores.",
-    caption: "Conheça a vida dos santos e inspire-se em seus exemplos de fé.",
+    caption: "Conheça a vida de 2 Santos e inspire-se em seus exemplos de fé.",
   },
   {
     src: "images/devocional-diario.jpeg",

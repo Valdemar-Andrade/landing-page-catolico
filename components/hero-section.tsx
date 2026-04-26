@@ -36,8 +36,9 @@ export default function HeroSection() {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="text-lg md:text-xl text-white leading-relaxed mb-8 max-w-xl"
             >
-              Um <strong>Diáro católico</strong> para quem quer rezar mais, mas
-              sente dificuldade em manter constância no dia a dia.
+              <strong>Diário de oração e meditação</strong> para quem quer estar
+              mais perto de Deus, mas nem sempre consegue manter esse hábito no
+              dia a dia.
             </motion.p>
 
             <motion.div
